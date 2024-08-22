@@ -7,3 +7,11 @@ div{
     width: auto;
     border: 2px solid blue;
 }
+article{
+    height: 140px;
+    width: 140px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 12px;
+    border-radius: 50%;
+}
