@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
 }
 
@@ -14,4 +14,16 @@ article{
     border: 2px solid black;
     border-radius: 12px;
     border-radius: 50%;
-}
+} */
+ input[type="text"]{
+    height: 140px;
+    width: 140px;
+    background-color: aquamarine;
+    border-color:blue;
+    
+ }
+ div{
+    height: 140px;
+    width: 140px;
+    background-color: aqua;
+ }

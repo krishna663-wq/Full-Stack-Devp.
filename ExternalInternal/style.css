@@ -1,0 +1,13 @@
+/* child combinator */
+
+div>p{
+
+}
+
+/* decendent Combinator */
+article div{
+    background-color: aquamarine;
+}
+section~p{
+    color: blue;
+}
