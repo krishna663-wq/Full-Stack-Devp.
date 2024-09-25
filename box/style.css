@@ -1,0 +1,21 @@
+body{
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+}
+.h-left{
+    background-color: bisque;
+}
+.h-right{
+    grid-column: 2/3;
+    background: green;
+}
+.h-bottom{
+    background: yellow;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: ;
+}
