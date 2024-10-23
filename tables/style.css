@@ -1,0 +1,32 @@
+.header{
+   border: 2px solid black;
+   display: flex;
+   height: 30px;
+   width:100%;
+   margin-left: 1px;
+   margin-right: 1px;
+   margin: 1px;
+   padding-left: 2px;
+   border-radius: 0.5px;
+}
+.left-sidebar{
+    border: 2px solid black;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin: 1px;
+}
+.right-sidebar{
+    border: 2px solid black;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin: 1px;
+}
+.center-sidebar{
+    border: 2px solid black;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin: 1px;
+}

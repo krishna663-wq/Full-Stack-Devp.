@@ -1,19 +1,33 @@
 div {
     height: 200px;
     width: 200px;
-    background-color:purple;
+    background-color:p;
     border-radius: 50%;
     border-color: aquamarine;
-    margin: auto;
-
-    animation-name: bounce;
-    animation-duration: 1s;
+    border-top: 16px solid blue;
+    /* margin: auto; */
+    animation: spin 2s linear infinite;
+    /* animation-name: bounce;
+    animation-duration: 3s;
+    
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-delay: 0ms;
+    rotate: 360deg; */
+    /* animation-name: example; */
   }
-  @keyframes bounce {
+  @keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+  }
+  /* @keyframes bounce {
       100%{
         transform: translateY(500px);
       }
-  }
+  } */
+  
+  /* @keyframes example {
+    from {background-color: purple;}
+    to {background-color: yellow;}
+  } */
